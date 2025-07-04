@@ -55,7 +55,7 @@ section#noticias ul {
 section#noticias ul li {
 	list-style:none;
 	width: 350px;
-	height: 350px;
+	height: 450px;
 	margin: 5px;
 }
 
@@ -131,3 +131,26 @@ section#projetos ul li h3 {
     color: #fff;
     padding: 10px;
 }   
+
+footer {
+	height: 350px;
+	background: blue;
+	color: #fff;
+	display: flex;
+
+	width: 1100px;
+	margin: 0 auto;
+}
+
+footer .logo {
+	width: 400px;
+}
+
+footer .logo img {
+	width: 100%;
+}
+
+footer ul li {
+	line-height: 50px;
+	list-style: none;
+}
